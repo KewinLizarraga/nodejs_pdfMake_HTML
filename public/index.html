@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="pdf">Create PDF</button>
+
+    <script>
+      const pdfDoc = document.getElementById("pdf");
+      pdfDoc.addEventListener("click", async () => {
+        window.location.href = "http://localhost:3000/pdf";
+      });
+    </script>
+  </body>
+</html>
